@@ -64,9 +64,9 @@ LoadedMSG="Send A Payload To Port 9020 Now !!!";
 runBinLoader();
 }
 
-function load_platinum(){
-LoadedMSG="PlatinumHen-U v2.5 B6 Loaded !!!";
-PLfile = "henplatinum2.bin";
+function load_goldhen224(){
+LoadedMSG="GoldHEN v2.2.4 Loaded !!!";
+PLfile = "goldhen224.bin";
 toogle_payload();
 }
 
@@ -76,27 +76,27 @@ PLfile = "goldhen_2.3.bin";
 toogle_payload();
 }
 
-function load_otoolbox(){
-LoadedMSG="Orbis-Toolbox Loaded !!!";
-PLfile = "OrbisToolbox.bin";
+function load_goldhen222(){
+LoadedMSG="GoldHEN v2.2.2 Loaded !!!";
+PLfile = "goldhen222.bin";
 toogle_payload();
 }
 
-function load_gtabeef138(){
-LoadedMSG="Beefqueef Mod Menu 1.38d Loaded !!!";
-PLfile = "BeefQueefMod138.bin";
+function load_goldhen212(){
+LoadedMSG="GoldHEN v2.1.2 Loaded !!!";
+PLfile = "goldhen212.bin";
 toogle_payload();
 }
 
-function load_expulsion138(){
-LoadedMSG="GtaV Expulsion Mod 1.38v4 Loaded !!!";
-PLfile = "expulsion138.bin";
+function load_goldhen2b2(){
+LoadedMSG="GoldHEN v2.0B2 Loaded !!!";
+PLfile = "goldhen2b2.bin";
 toogle_payload();
 }
 
-function load_wildemodz13816(){
-LoadedMSG="GtaV Lamance Mod 1.38v1.0 Loaded !!!";
-PLfile = "Lamance.bin";
+function load_goldhen20b(){
+LoadedMSG="GoldHEN v2.0B Loaded !!!";
+PLfile = "goldhen20b.bin";
 toogle_payload();
 }
 
