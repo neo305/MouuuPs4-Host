@@ -65,9 +65,9 @@ border-top:4px solid #FFFC33;
 	<body >		
     <script>
                 if(window.applicationCache.status==2){localStorage.is755BCached=true;}
-        	window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started!!";localStorage.is755BCached=false;};
+        	window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started ...";localStorage.is755BCached=false;};
 		window.applicationCache.onprogress=function(a){document.getElementById("myBar").style.width=(Math.round(100*(a.loaded/a.total)))+"%";document.getElementById("myBar").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
-		window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully!!";localStorage.is755BCached=true;setTimeout(function(){window.location.reload("myBar"); }, 1500);};
+		window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully ㋡!";localStorage.is755BCached=true;setTimeout(function(){window.location.reload("myBar"); }, 1500);};
         	window.applicationCache.onnoupdate=function(){window.location.replace("lndex.html");};
         	window.applicationCache.onerror=function(){window.location.replace("lndex.html");};
         </script>
@@ -93,7 +93,7 @@ border-top:4px solid #FFFC33;
   <g id="surface2">
   <use xlink:href="#image5" transform="matrix(0.075,0,0,0.075,0,0)"/>
   </g>
-  </svg><h1 id="progress" class="titlehead">Loading.. Please Wait !!</h1><br><br>
+  </svg><h1 id="progress" class="titlehead">Loading... Please Wait</h1><br><br>
 		<h1 id="myProgress">
 		  <div id="myBar">0%</div>
 		</h1>
