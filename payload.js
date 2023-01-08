@@ -70,9 +70,9 @@ PLfile = "goldhen224.bin";
 toogle_payload();
 }
 
-function load_goldhen2b2(){
+function load_goldhen23(){
 LoadedMSG="GoldHEN v2.3 Loaded !!!";
-PLfile = "goldhen_2.3.bin";
+PLfile = "goldhen23.bin";
 toogle_payload();
 }
 
