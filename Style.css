@@ -6,6 +6,7 @@ font-weight:lighter;
 text-align:left;
 color:#FFFFFF;
 background-size:cover;
+	background-color:black;
 }
 .modal {
   display: none; /* Hidden by default */
