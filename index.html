@@ -63,10 +63,10 @@ border-top:4px solid #FFFC33;
 <script>history.replaceState(null,null,'index.html');</script>
 </head>
 
-	<body >		
+	<body >
     <script>
                 if(window.applicationCache.status==2){localStorage.is755BCached=true;}
-        	window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Page Caching Started ...";localStorage.is755BCached=false;};
+        	window.applicationCache.ondownloading=function(){document.getElementById("progress").innerHTML="Installing Offline Cache ...";localStorage.is755BCached=false;};
 		window.applicationCache.onprogress=function(a){document.getElementById("myBar").style.width=(Math.round(100*(a.loaded/a.total)))+"%";document.getElementById("myBar").innerHTML=(Math.round(100*(a.loaded/a.total)))+"%";};
 		window.applicationCache.oncached=function(){document.getElementById("progress").innerHTML="Page Cached Successfully ㋡!";localStorage.is755BCached=true;setTimeout(function(){window.location.reload("myBar"); }, 1500);};
         	window.applicationCache.onnoupdate=function(){window.location.replace("lndex.html");};
@@ -124,6 +124,6 @@ border-top:4px solid #FFFC33;
  	document.body.style.background = "url('"+imgs[i]+"')"
  	document.body.style.backgroundSize = "cover"
  }
-</script><img src="loading-playstation.gif">	
+</script><img src="loading-playstation.gif">
 	</body>
 </html>
