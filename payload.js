@@ -11,7 +11,7 @@ function awaitpl2(){
 	    document.getElementById('notify').className = 'notification'
       setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>*Loading Binloader...</h1>'; }, 50);
       setTimeout(function(){document.getElementById("log").innerHTML="<h1 style=color:#ebfa89>"+LoadedMSG+"</h1>"; }, 800);
-      setTimeout(ani2, 4000);    
+      setTimeout(ani2, 4000);
 }
 
 function awaitpl(){
@@ -25,14 +25,14 @@ function awaitpl(){
 function load_exploit(){
     document.getElementById('notify').style.display = ''
     document.getElementById('notify').className = 'notification'
-    setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>*Loading Exfathax..Please Wait !!!</h1>'; }, 50);       
-    setTimeout(webkitExploit,1000);  
+    setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>★ Loading Exfathax<br>Please Wait ...</h1>'; }, 50);       
+    setTimeout(webkitExploit,1000);
 }
 
 function load_exploit_done(){
     document.getElementById('notify').style.display = ''
     document.getElementById('notify').className = 'notification'
-    setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>*Jailbreak Loaded !!!</h1>'; }, 50);   
+    setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>*Jailbreak Loaded !!!</h1>'; }, 50);
     setTimeout(loadHomeBrew, 100);
 }
 
@@ -47,7 +47,7 @@ function loadHomeBrew() {
     }else {
         document.getElementById('notify').style.display = ''
         document.getElementById('notify').className = 'notification'
-        setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>*Jailbreak Done, Now load HEN Manually!!!</h1>'; }, 50);   
+        setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>*Jailbreak Done, Now load HEN Manually!!!</h1>'; }, 50);
         setTimeout(ani2, 4000);
     }
 }
