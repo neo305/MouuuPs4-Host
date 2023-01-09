@@ -25,7 +25,7 @@ function awaitpl(){
 function load_exploit(){
     document.getElementById('notify').style.display = ''
     document.getElementById('notify').className = 'notification'
-    setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>★ Loading Exfathax<br>Please Wait ...</h1>'; }, 50);       
+    setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>★ Loading Exfathax<br>Please Wait ...</h1>'; }, 50);
     setTimeout(webkitExploit,1000);
 }
 
@@ -47,7 +47,7 @@ function loadHomeBrew() {
     }else {
         document.getElementById('notify').style.display = ''
         document.getElementById('notify').className = 'notification'
-        setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>*Jailbreak Done, Now load HEN Manually!!!</h1>'; }, 50);
+        setTimeout(function(){document.getElementById('log').innerHTML ='<h1 style=color:#ebfa89>★ Jailbreak Done!<br>Select goldHEN Manually</h1>'; }, 50);
         setTimeout(ani2, 4000);
     }
 }
